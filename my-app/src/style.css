@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: thistle;
+}
+h1{
+    font-size: 70px;
+    text-align: center;
+}
+.title h3, .title, .plus{
+    background-color: turquoise;
+}
+.title, .content{
+    display: flex;
+    justify-content: space-evenly;
+}
