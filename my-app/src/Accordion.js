@@ -1,19 +1,17 @@
-import React, { useState }  from 'react';
+import React from 'react';
 import './style.css'
 
 
 const Accordion = ({ title, content }) => {
-    const [isActive, setIsActive] = useState(false);
+  //  const [isActive, setIsActive] = useState(false);
   return (
-    <div className='acc'>
-  <div className="accordion-item">
-    <div className="accordion-title" onClick={() => setIsActive(!isActive)}>
+    <div className="accordion-item">
+    <div className="accordion-title">
       <div>{title}</div>
-      <div className='expansion'>{isActive ? '-' : '+'}</div>
+      <div>{'-'}</div>
     </div>
-    {isActive && <div className="accordion-content">{content}</div>}
+    <div className="accordion-content">{content}</div>
   </div>
-</div>
   );
 };
 export default Accordion;
