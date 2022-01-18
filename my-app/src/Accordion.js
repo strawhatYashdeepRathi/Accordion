@@ -23,12 +23,13 @@ const Accordion = () => {
                   <div className='title' onClick={() => toggle(index)} key={index}>
                     <h3>{item.title}</h3>
                     <span className='plus'>{isActive === index ? '➖' : '➕'}</span>
-                  </div>
-                  {isActive === index ? (
+                    {isActive === index ? (
                     <div className='content'>
                       <p>{item.content}</p>
                     </div>
                   ) : null}
+                  </div>
+                  
                 </div>
               );
             })}

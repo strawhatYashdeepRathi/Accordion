@@ -8,7 +8,7 @@ const Data = [
       content: `Dummy content 2- dtryvysxbancubyuvtyvgabnsutvcewbyt35278gcb3 wbyibcvauybenjdscbseiuwgbuc y   uw  ewy dhscn`,
     },
     {
-      title: "DAccordion title 3",
+      title: "Accordion title 3",
       content: `Dummy content 3- dtryvysxbancubyuvtyvgabnsutvcewbyt35278gcb3 wbyibcvauybenjdscbseiuwgbuc y   uw  ewy dhscn`,
     },
   ];

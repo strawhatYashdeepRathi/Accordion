@@ -8,12 +8,10 @@ h1{
     font-size: 70px;
     text-align: center;
 }
-.acc{
-    width: 70%;
+.title h3, .title, .plus{
+    background-color: turquoise;
 }
 .title, .content{
     display: flex;
-}
-.plus{
-    margin-left: 20%;
+    justify-content: space-evenly;
 }
